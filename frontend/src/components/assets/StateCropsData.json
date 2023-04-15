@@ -1,0 +1,954 @@
+[
+    {
+        "id": "1",
+        "state": "Uttarakhand",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "state": "Maharashtra",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India."
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/cucumber_fwtn6x.jpg",
+                "type": "Zaid",
+                "crop": "Cucumber",
+                "about": "In Maharashtra,it sould be sown in januay-february(summer crop) and june-july(rainy season crop)"
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/soyabean_l0bqbg.jpg",
+                "type": "Kharif",
+                "crop": "Soyabean",
+                "about": "Latur division of Maharashtra account for over 40 per cent of the total soybean grown in the country."
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/jowar_hszuct.jpg",
+                "type": "Kharif",
+                "crop": "Jowar",
+                "about": "Prominently grown in Maharshtra, it is the most important food and fodder crop of dry land agriculture"
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "The decomposition analysis for Vidarbha region was estimated the largest area effect on wheat production."
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/muskmelon_umtko6.jpg",
+                "type": "Zaid",
+                "crop": "Muskmelon",
+                "about": "Muskmelon crop grows best in hot and dry climatic conditions in Maharashtra"
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize, or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "state": "Uttar Pradesh",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "state": "Madhya Pradesh",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India."
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/cucumber_fwtn6x.jpg",
+                "type": "Zaid",
+                "crop": "Cucumber",
+                "about": "In Maharashtra,it sould be sown in januay-february(summer crop) and june-july(rainy season crop)"
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/soyabean_l0bqbg.jpg",
+                "type": "Kharif",
+                "crop": "Soyabean",
+                "about": "Latur division of Maharashtra account for over 40 per cent of the total soybean grown in the country."
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/jowar_hszuct.jpg",
+                "type": "Kharif",
+                "crop": "Jowar",
+                "about": "Prominently grown in Maharshtra, it is the most important food and fodder crop of dry land agriculture"
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "The decomposition analysis for Vidarbha region was estimated the largest area effect on wheat production."
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/muskmelon_umtko6.jpg",
+                "type": "Zaid",
+                "crop": "Muskmelon",
+                "about": "Muskmelon crop grows best in hot and dry climatic conditions in Maharashtra"
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize, or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "state": "Kerala",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646587267/crops/rubber_uob1uc.jpg",
+                "type": "Rabi",
+                "crop": "Rubber",
+                "about": "Rubber is a tropical tree crop which is mainly grown for the industrial production of latex."
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646587538/crops/coconut_bjjpiz.jpg",
+                "type": "Rabi",
+                "crop": "Coconut",
+                "about": "Coconut flesh is high in fat and can be dried or eaten fresh or processed into coconut milk or coconut oil."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "state": "Tamil Nadu",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "state": "Rajasthan",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "state": "Gujarat",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "state": "Assam",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "state": "Arunanchal Pradesh",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "state": "Andhra Pradesh",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646587267/crops/rubber_uob1uc.jpg",
+                "type": "Rabi",
+                "crop": "Rubber",
+                "about": "Rubber is a tropical tree crop which is mainly grown for the industrial production of latex."
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646587538/crops/coconut_bjjpiz.jpg",
+                "type": "Rabi",
+                "crop": "Coconut",
+                "about": "Coconut flesh is high in fat and can be dried or eaten fresh or processed into coconut milk or coconut oil."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "state": "Bihar",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "state": "Orissa",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "state": "Jharkhand",
+        "seasons": [
+            {
+                "id": "1",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Kharif",
+                "crop": "Paddy",
+                "about": "It is a tropical plant, it flourishes comfortably in hot and humid climate. "
+            },
+            {
+                "id": "2",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/maize_tm4mxi.jpg",
+                "type": "Kharif",
+                "crop": "Maize",
+                "about": "Maize,or corn, versatile emerging crop shaving wider adaptability under varied agro-climatic conditions."
+            },
+            {
+                "id": "3",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458389/crops/crops2/finger-millet_n81ozt.jpg",
+                "type": "Kharif",
+                "crop": "Finger Millet",
+                "about": "It is an annual herbaceous plant widely grown as a cereal crop in the arid and semiarid areas"
+            },
+            {
+                "id": "4",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458391/crops/crops2/barley_aaku69.jpg",
+                "type": "Rabi",
+                "crop": "Barley",
+                "about": "Barley, a member of the grass family, is a major cereal grain grown in temperate climates globally."
+            },
+            {
+                "id": "5",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Rabi",
+                "crop": "Gram",
+                "about": "Chana, one of the major pulses (commonly called daals) cultivated and consumed in India"
+            },
+            {
+                "id": "6",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458393/crops/crops2/wheat_njmir3.jpg",
+                "type": "Rabi",
+                "crop": "Wheat",
+                "about": "Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food."
+            },
+            {
+                "id": "7",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458394/crops/crops2/paddy_pqmt50.jpg",
+                "type": "Zaid",
+                "crop": "Paddy",
+                "about": "It is a tropical plant. It is mainly grown in rain fed areas that receive heavy annual rainfall."
+            },
+            {
+                "id": "8",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458392/crops/crops2/tomato_gdrvfv.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            },
+            {
+                "id": "9",
+                "img": "https://res.cloudinary.com/de4by5q8o/image/upload/v1646458390/crops/crops2/gram_akxrj6.jpg",
+                "type": "Zaid",
+                "crop": "Tomato",
+                "about": "Abstract Tomato is one of the major cash crops in the Golapar area of district Nainital in Uttarakhand"
+            }
+        ]
+    }
+]
