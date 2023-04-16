@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Restaurant 1",
+      "image": "https://static-blog.treebo.com/wp-content/uploads/2022/08/sky-house-min-1024x683.png",
+      "cuisine": "Italian",
+      "location": "New York",
+      "phone": "(123) 456-7890",
+      "priceRange": 500,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Restaurant 2",
+      "image": "https://media.timeout.com/images/105912766/image.jpg",
+      "cuisine": "Chinese",
+      "location": "San Francisco",
+      "phone": "(123) 456-7890",
+      "priceRange": 1000,
+      "rating": 3.5
+    }
+  ]
+  
