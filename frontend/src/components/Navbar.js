@@ -38,16 +38,25 @@ const Navbar = () => {
                 className='text-dark text-decoration-none h6'
                 to='/'
               >
-                Our Services
+               Services
               </Link>
             </div>
             <div className='mx-3'>
               <Link
                 style={{ fontSize: '17px', position: 'relative', top: '1rem' }}
                 className='text-dark text-decoration-none h6'
-                to='/'
+                to='/sign-up'
               >
                 SignUp
+              </Link>
+            </div>
+            <div className='mx-3'>
+              <Link
+                style={{ fontSize: '17px', position: 'relative', top: '1rem' }}
+                className='text-dark text-decoration-none h6'
+                to='/budget'
+              >
+                Budget
               </Link>
             </div>
             <div className='mx-3'>
