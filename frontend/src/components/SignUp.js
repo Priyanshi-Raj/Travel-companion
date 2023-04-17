@@ -7,8 +7,8 @@ function SignUp() {
   return (
     <div style={{ backgroundImage: `url(${background})`}} className='wrapper' >
      <h1>How do You Want To Use Our Website?</h1>
-     <p>We’ll personalize your setup experience accordingly.</p>
-     <Link to="/" className='bt'>
+     <b>We’ll personalize your setup experience accordingly.</b>
+     <Link to="/local" className='bt'>
        <div className='btcont'>
        I am a local
        </div>
