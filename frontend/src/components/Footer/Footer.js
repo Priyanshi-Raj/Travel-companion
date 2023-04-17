@@ -86,7 +86,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="form">
+      {/* <div className="form">
         <p className="para">Got a query? Contact Us</p>
         <form method="POST" className="contact-form">
           <div className="first">
@@ -128,7 +128,7 @@ function Footer() {
             <span>Submit</span>
           </button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }

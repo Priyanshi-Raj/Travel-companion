@@ -1,9 +1,9 @@
 import React from 'react'
-import "./SignUp.css"
+import "./Choice.css"
 import { Link } from 'react-router-dom'
 import background from "./assets/images/back.jpg"
 
-function SignUp() {
+function Choice() {
   return (
     <div style={{ backgroundImage: `url(${background})`}} className='wrapper' >
      <h1>How do You Want To Use Our Website?</h1>
@@ -22,4 +22,4 @@ function SignUp() {
   )
 }
 
-export default SignUp
+export default Choice;
