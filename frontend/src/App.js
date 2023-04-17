@@ -1,11 +1,13 @@
 import "./App.css";
 import Landing from "./components/Landing";
 import { Routes, Route } from "react-router-dom";
+// import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Footer from "./components/Footer/Footer";
 import Budget from "./components/Budget";
 import SignUp from "./components/Choice";
 import Signup from "./components/Signup";
 import LocalRegisteration from "./components/LocalRegisteration";
+import Chat from "./components/Chat"
 // import Header from './components/header/Header';
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
         <Route path="/sign-up/signup" element={<Signup/>} />
         <Route path="/local" element={<LocalRegisteration />} />
       </Routes>
+      {/* <MessengerCustomerChat
+    pageId="100091854913747"
+    appId="574453728119891"
+   
+  /> */}
+  <Chat/>
       <Footer />
     </>
   );
