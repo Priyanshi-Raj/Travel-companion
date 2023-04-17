@@ -47,29 +47,30 @@
   }
   .form .first {
     display: flex;
+    justify-content: space-between;
   }
   .mail {
     margin-left: 6px;
   }
   .message {
-    margin-top: 8px;
-    margin-left: 2px;
+    width: 100%;
+    margin-top: 10px;
   }
   input[type="text"],
   input[type="email"],
   textarea {
-    padding-left: 3px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
     background: rgba(195, 207, 181, 1);
     color: rgba(79, 100, 79, 1);
     font-family: "Montserrat";
   }
   
   input[type="text"] {
-    width: 75%;
     height: 2.25rem;
   }
   input[type="email"] {
-    width: 145%;
     height: 2.25rem;
     margin-left: -3rem !important;
   }
@@ -80,7 +81,6 @@
   .custom-btn {
     width: 150px;
     height: 45px;
-    margin-left: 4px;
     color: black;
     border-radius: 5px;
     padding: 10px 25px;
@@ -88,7 +88,7 @@
     font-weight: 600;
     background: transparent;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     position: relative;
     display: inline-block;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
@@ -96,6 +96,10 @@
     outline: none;
   }
   
+  .custom-btn:hover{
+    color: white;
+  }
+
   .btn {
     background: rgba(255, 255, 255, 1);
     line-height: 42px;
