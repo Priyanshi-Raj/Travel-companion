@@ -94,7 +94,7 @@ const Landing = () => {
                    bottom: '1rem',
                   marginTop:'-2rem'
                 }}
-                to={'/state'}
+                to={'/cardpage'}
               >
                 Choose your Destination
             
