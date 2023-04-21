@@ -10,10 +10,12 @@ import LocalRegisteration from "./components/LocalRegisteration";
 import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
 // import Header from './components/header/Header';
+// import Varanasi from "./components/Varanasi"
 
 function App() {
   return (
     <>
+    {/* <Varanasi/> */}
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />

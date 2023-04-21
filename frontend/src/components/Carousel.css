@@ -1,0 +1,18 @@
+.carda{
+    /* border: 2px solid red; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.img-cont{
+    border-radius: 1rem;
+    height: 30%;
+    /* border: 2px solid blue; */
+}
+.carda-img-top{
+    height: 200px;
+    width: 100%;
+}
