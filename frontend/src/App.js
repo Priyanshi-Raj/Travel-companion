@@ -7,7 +7,8 @@ import Budget from "./components/Budget";
 import SignUp from "./components/Choice";
 import Signup from "./components/Signup";
 import LocalRegisteration from "./components/LocalRegisteration";
-import Chat from "./components/Chat"
+import Chat from "./components/Chat";
+import CardPage from "./components/CardPage";
 // import Header from './components/header/Header';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />
         <Route path="/sign-up" element={<SignUp />} />
-        <Route path="/sign-up/signup" element={<Signup/>} />
+        <Route path="/sign-up/signup" element={<Signup />} />
+        <Route path="/cardpage" element={<CardPage />} />
         <Route path="/local" element={<LocalRegisteration />} />
       </Routes>
       {/* <MessengerCustomerChat
@@ -25,7 +27,7 @@ function App() {
     appId="574453728119891"
    
   /> */}
-  <Chat/>
+      <Chat />
       <Footer />
     </>
   );
