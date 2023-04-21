@@ -16,6 +16,7 @@ import cap2 from './assets/images/cap2.jpg';
 import cap3 from './assets/images/cap3.webp';
 import cap4 from './assets/images/c1.jpg';
 import cap5 from './assets/images/cap5.jpg';
+import Services from './Services';
 // import TutorialVideos from './TutorialVideos';
 
 // import Tools from './Tools';
@@ -144,6 +145,8 @@ const Landing = () => {
           </div>{' '}
         </div>{' '}
       </div>{' '}
+
+      <Services/>
   
     </div>
   );
