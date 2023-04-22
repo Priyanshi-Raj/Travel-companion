@@ -42,14 +42,14 @@ const Landing = () => {
   return (
     <div className='App'>
       <div style={{ height: '100vh', position: 'relative' }} className='mb-5' container>
-        <Navbar />{' '}
+        <Navbar />
        
         <div className={styles.some}>
-          {' '}
+      
        
           <div className='land'>
             <div className='land1'>
-              {' '}
+         
               <img className='landing1' src={Landing1} alt='Landing 1' />
             </div>
             {/* <div className='land2'>
@@ -75,8 +75,7 @@ const Landing = () => {
               }}
               className={`landingBold h1 text-center heading`}
             >
-              {' '}
-              Helping Tourist To Get Authentic Experience{' '}
+           
             </div>{' '}
             <div className='text-center my-3 mb-5 heading1'>
               <Link
@@ -107,7 +106,7 @@ const Landing = () => {
         </div>{' '}
       </div>
      
-      <div className='capable'>
+      {/* <div className='capable'>
         <p className='para'> What we are capable of ? </p>
         <div className='abilities'>
           <div className='ability'>
@@ -144,7 +143,10 @@ const Landing = () => {
             </div>{' '}
           </div>{' '}
         </div>{' '}
-      </div>{' '}
+      </div>{' '} */}
+      <br/>
+      <br/>
+
 
       <Services/>
   

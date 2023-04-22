@@ -45,12 +45,14 @@ const Signup = () => {
             placeholder="Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue',border:'1px solid grey'}}
           />
           <input
             type="password"
             placeholder="Password"
             value={loginPassword}
             onChange={(e) => setLoginPassword(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue',border:'1px solid grey'}}
           />
           <button type="submit">Login</button>
           <p>
@@ -69,30 +71,45 @@ const Signup = () => {
             placeholder="First Name"
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
+          />
+           <input
+            type="text"
+            placeholder="Last Name"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
           />
           <input
             type="text"
-            placeholder="Last Name"
+            placeholder="E-mail"
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue',border:'1px solid grey'}}
           />
-          <input 
+          {/* <input 
             type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)} 
-          />
+            // className="email"
+            style={{ backgroundColor: 'white', color: 'blue' ,marginLeft:'200px',border:'1px solid grey'}}
+          /> */}
           <input
             type="password"
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            className="email"
+            style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
+           
           />
           <input
             type="tel"
             placeholder="Phone Number"
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
+            style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
           />
           <button type="submit">Sign Up</button>
           <p>
