@@ -4,7 +4,7 @@ import "./CardPage.css";
 
 const Button = ({ category, selected, onClick }) => (
   <button
-    className={`card-page-button ${selected ? "selected" : ""}`}
+    className={`cardt-page-button ${selected ? "selected" : ""}`}
     onClick={() => onClick(category)}
   >
     {category}
@@ -12,7 +12,7 @@ const Button = ({ category, selected, onClick }) => (
 );
 
 const Card = ({ name, location, description, image }) => (
-  <div className="card">
+  <div className="cardt">
     <img src={image} alt={name} />
     <h2>{name}</h2>
     <p>{location}</p>
@@ -101,20 +101,20 @@ const CardList = ({ category }) => {
 
   return (
     <>
-      <div className="card-list-header">
+      <div className="cardt-list-header">
         <Button category="all" onClick={handleClick} />
         <Button category="religious" onClick={handleClick} />
         <Button category="traditional" onClick={handleClick} />
         <Button category="nightlife" onClick={handleClick} />
         <Button category="adventurous" onClick={handleClick} />
       </div>
-      <div className="card-list">{cards}</div>
+      <div className="cardt-list">{cards}</div>
     </>
   );
 };
 
 const CardPage = () => (
-  <div className="card-page-container">
+  <div className="cardt-page-container">
     <CardList category="all" />
   </div>
 );

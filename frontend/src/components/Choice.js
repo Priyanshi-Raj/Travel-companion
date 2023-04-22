@@ -13,7 +13,7 @@ function Choice() {
        I am a local
        </div>
      </Link>
-     <Link  to="/" className='bt'>
+     <Link  to="/sign-up/signup" className='bt'>
        <div className='btcont'>
        I am a traveller
        </div>

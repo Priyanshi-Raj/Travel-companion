@@ -62,7 +62,7 @@ const Landing = () => {
               top: '35%',
               width: '30rem',
             }}
-            className='container d-flex flex-column align-center w-100 justify-content-center h-50 mt-5 search'
+            className='containert d-flex flex-column align-center w-100 justify-content-center h-50 mt-5 search'
           >
             <div
               style={{

@@ -9,12 +9,11 @@ import Signup from "./components/Signup";
 import LocalRegisteration from "./components/LocalRegisteration";
 import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
-import Navbar from "./components/Navbar";
+// import Header from './components/header/Header';
 
 function App() {
   return (
     <>
-    <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />

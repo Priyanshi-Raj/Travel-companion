@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 
-import PostMessage from '../models/postMessage.js';
+ import PostMessage from '../models/local-post.js';
 
 const router = express.Router();
 
@@ -28,9 +28,9 @@ export const getPost = async (req, res) => {
 }
 
 export const createPost = async (req, res) => {
-    const { title, message, selectedFile, creator, tags } = req.body;
+    const { name, cuisine, location, phone, description, priceRange, image } = req.body;
 
-    const newPostMessage = new PostMessage({ title, message, selectedFile, creator, tags })
+    const newPostMessage = new PostMessage({ name, cuisine, location, phone, description, priceRange, image });
 
     try {
         await newPostMessage.save();
@@ -43,11 +43,11 @@ export const createPost = async (req, res) => {
 
 export const updatePost = async (req, res) => {
     const { id } = req.params;
-    const { title, message, creator, selectedFile, tags } = req.body;
+    const { name, cuisine, location, phone, description, priceRange, image } = req.body;
     
     if (!mongoose.Types.ObjectId.isValid(id)) return res.status(404).send(`No post with id: ${id}`);
 
-    const updatedPost = { creator, title, message, tags, selectedFile, _id: id };
+    const updatedPost = { name, cuisine, location, phone, description, priceRange, image, _id: id };
 
     await PostMessage.findByIdAndUpdate(id, updatedPost, { new: true });
 
@@ -75,6 +75,5 @@ export const likePost = async (req, res) => {
     
     res.json(updatedPost);
 }
-
 
 export default router;
