@@ -95,7 +95,7 @@ const Landing = () => {
                    bottom: '1rem',
                   marginTop:'-2rem'
                 }}
-                to={'/cardpage'}
+                to={'/indiapage'}
               >
                 Choose your Destination
             

@@ -9,6 +9,7 @@ import Signup from "./components/Signup";
 import LocalRegisteration from "./components/LocalRegisteration";
 import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
+import IndiaPage from "./components/Recommend/IndiaPage";
 // import Header from './components/header/Header';
 // import Varanasi from "./components/Varanasi"
 
@@ -21,8 +22,10 @@ function App() {
         <Route path="/budget" element={<Budget />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/sign-up/signup" element={<Signup />} />
-        <Route path="/cardpage" element={<CardPage />} />
-        <Route path="/local" element={<LocalRegisteration />} />
+        <Route path="/indiapage" element={<IndiaPage />} />
+        <Route path="/cardpage" element={<CardPage/>}/>
+        <Route path="/local" element={<LocalRegisteration />}/>
+        
       </Routes>
       {/* <MessengerCustomerChat
     pageId="100091854913747"
