@@ -9,11 +9,12 @@ import Signup from "./components/Signup";
 import LocalRegisteration from "./components/LocalRegisteration";
 import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
-// import Header from './components/header/Header';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />
@@ -22,11 +23,7 @@ function App() {
         <Route path="/cardpage" element={<CardPage />} />
         <Route path="/local" element={<LocalRegisteration />} />
       </Routes>
-      {/* <MessengerCustomerChat
-    pageId="100091854913747"
-    appId="574453728119891"
-   
-  /> */}
+      {/* <MessengerCustomerChat pageId="100091854913747" appId="574453728119891" /> */}
       <Chat />
       <Footer />
     </>

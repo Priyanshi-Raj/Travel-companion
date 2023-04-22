@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { Routes, Route, Link, useNavigate } from 'react-router-dom';
  import StateCropsData from './assets/StateCropsData.json';
 // import State from './State';
-import Navbar from './Navbar';
 // import About from './About';
 import styles from './Landing.module.css';
 import './Landing.css';
@@ -42,7 +41,6 @@ const Landing = () => {
   return (
     <div className='App'>
       <div style={{ height: '100vh', position: 'relative' }} className='mb-5' container>
-        <Navbar />{' '}
        
         <div className={styles.some}>
           {' '}
