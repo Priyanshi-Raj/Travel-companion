@@ -108,7 +108,7 @@ const CardList = ({ category }) => {
         <Button category="nightlife" onClick={handleClick} />
         <Button category="adventurous" onClick={handleClick} />
       </div>
-      <div className="card-list">{cards}</div>
+      <div className="cardt-list">{cards}</div>
     </>
   );
 };
