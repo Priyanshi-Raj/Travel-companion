@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Footer.css";
+import style from "./Footer.module.css";
 
 // import logo1 from "../assets/images/Vector.png";
 
@@ -52,21 +52,21 @@ function Footer() {
   };
 
   return (
-    <div className="Footer">
-      <div className="ll">
+    <div className={style.Footer}>
+      <div className={style.ll}>
         {/* <img src={logo1} alt="logo" /> */}
-        <p className="adress">
+        <p className={style.address}>
           Address : <br />
           JSS Academy of Technical Eduction Gautam Buddh Nagar <br />
           Noida
         </p>
       </div>
-      <div className="mid">
-        <div className="portals">
+      <div className={style.mid}>
+        <div className={style.portals}>
           <ul>
-            <li className="h">Portals</li>
+            <li className={style.h}>Portals</li>
 
-            <li className="top">Beautiful Locations</li>
+            <li className={style.top}>Beautiful Locations</li>
             <li>Get Recommendations</li>
             <li>Our Services</li>
             <li>Track-On</li>
@@ -74,11 +74,11 @@ function Footer() {
             <li>Post Services</li>
           </ul>
         </div>
-        <div className="links">
+        <div className={style.links}>
           <ul>
-            <li className="h">Links</li>
+            <li className={style.h}>Links</li>
 
-            <li className="top">About Us</li>
+            <li className={style.top}>About Us</li>
             <li>Initiatives</li>
             <li>Roadmap</li>
             <li>Legal</li>
@@ -86,14 +86,14 @@ function Footer() {
         </div>
       </div>
 
-      {/* <div className="form">
-        <p className="para">Got a query? Contact Us</p>
-        <form method="POST" className="contact-form">
-          <div className="first">
+      <div className={style.form}>
+        <p className={style.para}>Got a query? Contact Us</p>
+        <form method="POST" className={`${style["contact-form"]}`}>
+          <div className={style.first}>
             <div>
               <input
                 type="text"
-                className="name"
+                className={style.name}
                 name="name"
                 value={userData.name}
                 onChange={postUserData}
@@ -101,20 +101,20 @@ function Footer() {
                 required
               />
             </div>
-            <div className="mail">
+            <div className={style.mail}>
               <input
                 type="email"
                 name="email"
                 value={userData.email}
                 onChange={postUserData}
-                className="email"
+                className={style.email}
                 placeholder="E-mail"
                 required
               />
             </div>
           </div>
           <textarea
-            className="message"
+            className={style.message}
             placeholder=" Message"
             name="message"
             value={userData.message}
@@ -124,11 +124,15 @@ function Footer() {
             required
           />
 
-          <button type="submit" onClick={submitData} className="custom-btn btn">
+          <button
+            type="submit"
+            onClick={submitData}
+            className={`${style["custom-btn"]} ${style.btn}`}
+          >
             <span>Submit</span>
           </button>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 }
