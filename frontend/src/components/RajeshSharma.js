@@ -1,5 +1,5 @@
 import React from "react";
-import HouseTour from "./assets/videos/HouseTour.mp4";
+// import HouseTour from "./assets/videos/HouseTour.mp4";
 import ImageSlider from "./ImageSlider";
 
 /*Images*/
