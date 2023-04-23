@@ -86,7 +86,7 @@ function RajeshSharma() {
     <div className={style.rjsharma}>
       {/*****************************VIDEO*************************************/}
       <div className={style.vidcont}>
-        <video src={HouseTour} controls />
+        <video src={"#"} controls />
         <div>
           <h1>House Tour</h1>
           <p>
