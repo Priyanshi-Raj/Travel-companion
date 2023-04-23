@@ -5,7 +5,7 @@ import background from "./assets/images/back.jpg"
 
 function Choice() {
   return (
-    <div style={{ backgroundImage: `url(${background})`}} className='wrapper' >
+    <div style={{ backgroundImage: `url(${background})`}} className='wrapperz' >
      <h1>How do You Want To Use Our Website?</h1>
      <b>We’ll personalize your setup experience accordingly.</b>
      <Link to="/local" className='bt'>

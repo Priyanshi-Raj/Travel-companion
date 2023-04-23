@@ -11,12 +11,12 @@ import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
 import IndiaPage from "./components/Recommend/IndiaPage";
 // import Header from './components/header/Header';
-// import Varanasi from "./components/Varanasi"
+import Varanasi from "./components/Varanasi"
+import RajeshSharma from "./components/RajeshSharma";
 
 function App() {
   return (
     <>
-    {/* <Varanasi/> */}
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />
@@ -25,7 +25,8 @@ function App() {
         <Route path="/indiapage" element={<IndiaPage />} />
         <Route path="/cardpage" element={<CardPage/>}/>
         <Route path="/local" element={<LocalRegisteration />}/>
-        
+        <Route path="/vara" element={<Varanasi />}/>
+        <Route path="/raja" element={<RajeshSharma />}/>
       </Routes>
       {/* <MessengerCustomerChat
     pageId="100091854913747"
