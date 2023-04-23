@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "./assets/StateCropsData.json";
 import "./CardPage.css";
+import { Link } from "react-router-dom";
 
 const Button = ({ category, selected, onClick }) => (
   <button
@@ -12,12 +13,14 @@ const Button = ({ category, selected, onClick }) => (
 );
 
 const Card = ({ name, location, description, image }) => (
-  <div className="cardt">
-    <img src={image} alt={name} />
-    <h2>{name}</h2>
-    <p>{location}</p>
-    <p>{description}</p>
-  </div>
+  <Link style={{ textDecoration: "none" }} to="/vara">
+    <div className="cardt">
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <p>{location}</p>
+      <p>{description}</p>
+    </div>
+  </Link>
 );
 
 const CardList = ({ category }) => {

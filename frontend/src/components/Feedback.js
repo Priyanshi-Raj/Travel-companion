@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Rating from "react-rating-stars-component";
-import "./Feedback.css";
+import style from "./Feedback.module.css";
 
 const FeedbackForm = () => {
   const [feedback, setFeedback] = useState("");
@@ -23,16 +23,16 @@ const FeedbackForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-        <label htmlFor="feedback-input">Please provide your feedback:</label>
-        <textarea
+    <form className={style.formi} onSubmit={handleSubmit}>
+        <label className={style.labeli} htmlFor="feedback-input">Please provide your feedback:</label>
+        <textarea className={style.textareai}
           id="feedback-input"
           value={feedback}
           onChange={handleFeedbackChange}
           placeholder="Type your feedback here..."
           required
         />
-        <label htmlFor="rating-input">Please rate your experience:</label>
+        <label className={style.labeli} htmlFor="rating-input">Please rate your experience:</label>
         <Rating
           id="rating-input"
           count={5}
@@ -41,7 +41,7 @@ const FeedbackForm = () => {
           size={24}
           activeColor="#ffd700"
         />
-        <button type="submit">Submit</button>
+        <button className={style.buttoni} type="submit">Submit</button>
       </form>
   );
 };

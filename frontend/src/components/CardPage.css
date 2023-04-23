@@ -13,11 +13,13 @@
 }
 
 .cardt {
+  text-align: center;
+  color: black;
   width: 350px;
   margin: 20px 10px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(56, 117, 248);
   background-color: #fff;
   transition: transform 0.2s ease-in-out;
 }
@@ -34,7 +36,7 @@
   margin-bottom: 20px;
 }
 
-.cardt h2 {
+.cardt>h2 {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
