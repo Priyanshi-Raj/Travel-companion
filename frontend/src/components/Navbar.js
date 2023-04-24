@@ -2,7 +2,6 @@
 // import { Link } from 'react-router-dom';
 // import './Navbar.css';
 // //  import Logo from './assets/images/Vector.svg';
-import GoogleTranslateElement from './GoogleTranslateElement';
 
 // const Navbar = () => {
 //   return (
@@ -10,7 +9,7 @@ import GoogleTranslateElement from './GoogleTranslateElement';
 //       <div id='navbar' className='d-flex w-100 space-between px-2 '>
 //         {/* <div className='d-flex'>
 //           <img width='120px' className='mx-3 m' src={Logo} alt='..' />
-        
+
 //         </div> */}
 //         <div>
 //           <div className='d-flex'>
@@ -77,27 +76,31 @@ import GoogleTranslateElement from './GoogleTranslateElement';
 // };
 
 // export default Navbar;
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import GoogleTranslateElement from "./GoogleTranslateElement";
 
 function Navbar() {
   return (
-    <div className="navbart">
-      <a className="nava" href="#home">Home</a>
-      <a className="nava" href="#about">About Us</a>
-      <a className="nava" href="">Services</a>
-    <Link to='/sign-up'> <a className="nava" href="#signup">Sign Up</a></Link> 
-    <Link to='/budget'>  <a className="nava" href="#budget">Budget</a></Link>
-      <a className="nava" href="#contact">Contact Us</a>
-
+    <div className="navbar">
       <div>
-      <GoogleTranslateElement/>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="">SERVICES</a>
+        <Link to="/budget">
+          <a href="#budget">BUDGET</a>
+        </Link>
+        <a href="#contact">CONTACT US</a>
+        <Link to="/sign-up">
+          <a href="#signup">REGISTER</a>
+        </Link>
       </div>
-     
+      <div>
+        <GoogleTranslateElement />
+      </div>
     </div>
   );
 }
 
 export default Navbar;
-

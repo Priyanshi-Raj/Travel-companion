@@ -1,23 +1,22 @@
-.navbart {
+.navbar {
   background-color: rgb(5, 4, 63);
   overflow: hidden;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
+  padding-right: 10px;
 }
 
-.nava{
+.navbar a {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.5s ease;
 }
 
-.nava:hover {
-  background-color: #ddd;
-  color: black;
+.navbar a:hover {
+  color: #8ab92d;
 }
 
   
