@@ -2,7 +2,7 @@
 // import { Link } from 'react-router-dom';
 // import './Navbar.css';
 // //  import Logo from './assets/images/Vector.svg';
-
+import GoogleTranslateElement from './GoogleTranslateElement';
 
 // const Navbar = () => {
 //   return (
@@ -83,13 +83,18 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="">Services</a>
-    <Link to='/sign-up'> <a href="#signup">Sign Up</a></Link> 
-    <Link to='/budget'>  <a href="#budget">Budget</a></Link>
-      <a href="#contact">Contact Us</a>
+    <div className="navbart">
+      <a className="nava" href="#home">Home</a>
+      <a className="nava" href="#about">About Us</a>
+      <a className="nava" href="">Services</a>
+    <Link to='/sign-up'> <a className="nava" href="#signup">Sign Up</a></Link> 
+    <Link to='/budget'>  <a className="nava" href="#budget">Budget</a></Link>
+      <a className="nava" href="#contact">Contact Us</a>
+
+      <div>
+      <GoogleTranslateElement/>
+      </div>
+     
     </div>
   );
 }

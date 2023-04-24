@@ -42,7 +42,7 @@ const Landing = () => {
   return (
     <div className='App'>
       <div style={{ height: '100vh', position: 'relative' }} className='mb-5' container>
-        <Navbar />
+        {/* <Navbar /> */}
        
         <div className={styles.some}>
       
