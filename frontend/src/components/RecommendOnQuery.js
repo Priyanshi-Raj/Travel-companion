@@ -33,7 +33,7 @@ const RecommendOnQuery = () => {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Write anything...\n"
+            placeholder="Write anything..."
             className={style.tx}
           ></textarea>
         </div>

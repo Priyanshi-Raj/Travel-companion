@@ -18,6 +18,7 @@ const handleSubmit = (event) => {
     event.preventDefault();
   
     if (selectedOption === 'explore') {
+      // explore incredible india
       window.location.href = '/cardpage';
     } else {
       // handle recommendation form submission
