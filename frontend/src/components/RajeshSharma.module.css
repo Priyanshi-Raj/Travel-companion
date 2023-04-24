@@ -172,3 +172,23 @@
 .formiz>button{
     background-color: blue;
 }
+.formiz>button>a{
+  text-decoration: none;
+  color: white;
+}
+
+/******************FEEDBACK**************/
+.fxs{
+    margin-top: 2rem;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.cst{
+    /* border: 2px solid blue; */
+    margin:0 7rem;
+    margin-right: 9rem;
+}
+.cst>ul{
+    list-style-type:none;
+    margin-top: 2rem;
+}

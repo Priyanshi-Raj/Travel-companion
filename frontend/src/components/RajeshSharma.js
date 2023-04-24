@@ -2,7 +2,6 @@ import React from "react";
 // import HouseTour from "./assets/videos/HouseTour.mp4";
 import ImageSlider from "./ImageSlider";
 
-
 /*Images*/
 import homepic from "./assets/images/homepic.avif";
 import homepic2 from "./assets/images/homepic2.jpg";
@@ -26,10 +25,11 @@ import khet2 from "./assets/images/khet2.webp";
 import rit1 from "./assets/images/rit1.jpg";
 import rit2 from "./assets/images/rit2.jpg";
 import tube1 from "./assets/images/tube1.jpg";
-import tube2 from "./assets/images/tube2.jpg";
 
 import style from "./RajeshSharma.module.css";
-import {Routes, Route, useNavigate} from 'react-router-dom';
+import { Routes, Route, useNavigate } from "react-router-dom";
+
+import Feedback from "./Feedback.js";
 
 const images = [homepic, homepic2, homepic3, homepic4, homepic5];
 
@@ -56,9 +56,9 @@ const ent = [
   {
     image: khet1,
     title: "Village tour",
-    description: "Our village has abundance of natural beauty.We have beautiful farms,paddy fields ,ponds and lakes.We also have beautiful temples.We provide you a village tour to experience it all. ",
+    description:
+      "Our village has abundance of natural beauty.We have beautiful farms,paddy fields ,ponds and lakes.We also have beautiful temples.We provide you a village tour to experience it all. ",
   },
-
 ];
 const nent = [
   {
@@ -68,11 +68,11 @@ const nent = [
       "Being located in Varanasi our village has rich culture and traditions which excites the travellers.We offer you to explore the rich culture of our village by including you in our festivals and traditional events",
   },
   {
-    image: tube2,
+    image: tube1,
     title: "Exposure to daily life of villagers",
-    description: "Village life is tougher than city but it does have its own fun.You can get an authentic village life experience by watching and even engaging in day to day activities performed by villagers.",
+    description:
+      "Village life is tougher than city but it does have its own fun.You can get an authentic village life experience by watching and even engaging in day to day activities performed by villagers.",
   },
-
 ];
 
 const Ent = ({ image, title, description }) => (
@@ -84,13 +84,12 @@ const Ent = ({ image, title, description }) => (
 );
 
 function RajeshSharma() {
-
   const navigate = useNavigate();
   const f = () => {
     // 👇️ navigate to /
-    navigate('https://calm-pasca-d428e9.netlify.app/');
+    navigate("https://calm-pasca-d428e9.netlify.app/");
   };
-  let url='https://calm-pasca-d428e9.netlify.app/'
+  let url = "https://calm-pasca-d428e9.netlify.app/";
 
   return (
     <div className={style.rjsharma}>
@@ -246,14 +245,28 @@ function RajeshSharma() {
               <option value="9day">9 Days</option>
               <option value="11day">11 Days</option>
             </select>
-            <a href={url}>
-             Book Now</a>
+            <button><a href={url}>Book Now</a></button>
           </form>
         </div>
+      </div>
+      {/**********************FEEDBACK*******************/}
+      <div className={style.fxs}>
+      <Feedback/>
+
+      <div className={style.cst}>
+        <h2>Address and Contact :</h2>
+        <ul>
+          <li>Rajesh Sharma</li>
+          <li>123 Main Street</li>
+          <li>Ashapur, Varanasi</li>
+          <li>Uttar Pradesh</li>
+          <li>Phone:7765890923</li>
+          <li>rajeshsharma@email.com</li>
+        </ul>
+      </div>
       </div>
     </div>
   );
 }
 
 export default RajeshSharma;
-
