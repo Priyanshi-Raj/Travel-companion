@@ -2,6 +2,7 @@ import React from "react";
 // import HouseTour from "./assets/videos/HouseTour.mp4";
 import ImageSlider from "./ImageSlider";
 
+
 /*Images*/
 import homepic from "./assets/images/homepic.avif";
 import homepic2 from "./assets/images/homepic2.jpg";
@@ -28,6 +29,7 @@ import tube1 from "./assets/images/tube1.jpg";
 import tube2 from "./assets/images/tube2.jpg";
 
 import style from "./RajeshSharma.module.css";
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 const images = [homepic, homepic2, homepic3, homepic4, homepic5];
 
@@ -82,6 +84,14 @@ const Ent = ({ image, title, description }) => (
 );
 
 function RajeshSharma() {
+
+  const navigate = useNavigate();
+  const f = () => {
+    // 👇️ navigate to /
+    navigate('https://calm-pasca-d428e9.netlify.app/');
+  };
+  let url='https://calm-pasca-d428e9.netlify.app/'
+
   return (
     <div className={style.rjsharma}>
       {/*****************************VIDEO*************************************/}
@@ -236,7 +246,8 @@ function RajeshSharma() {
               <option value="9day">9 Days</option>
               <option value="11day">11 Days</option>
             </select>
-            <button type="submit">Book Now</button>
+            <a href={url}>
+             Book Now</a>
           </form>
         </div>
       </div>
@@ -245,33 +256,4 @@ function RajeshSharma() {
 }
 
 export default RajeshSharma;
-/**<ul>
-          <li>
-            <h3>Exposure to Traditional Cuisine making</h3>
-            <div className={style.lil}>
-              <img src={foodmaking1}></img>
-              <img src={foodmaking2}></img>
-            </div>
-          </li>
-          <li>
-            <h3>Village tour</h3>
-            <div className={style.lil}>
-              <img src={khet1}></img>
-              <img src={khet2}></img>
-            </div>
-          </li>
-          <li>
-            <h3>Exposure to local rituals</h3>
-            <div className={style.lil}>
-              <img src={rit1}></img>
-              <img src={rit2}></img>
-            </div>
-          </li>
-          <li>
-            <h3>Exposure to daily life of villagers</h3>
-            <div className={style.lil}>
-              <img src={tube1}></img>
-              <img src={tube2}></img>
-            </div>
-          </li>
-        </ul> */
+

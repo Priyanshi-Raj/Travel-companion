@@ -1,8 +1,7 @@
-// Import React and CSS
 import React, { useState } from 'react';
-import './Login.css'; // Import your CSS file
+import './Login.css';
+import axios from 'axios'; // Import axios library
 
-// SignUpForm component
 const Signup = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -13,17 +12,38 @@ const Signup = () => {
   const [username, setUsername] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
 
-  const handleSignUp = (e) => {
+  const handleSignUp = async (e) => {
     e.preventDefault();
-    // Handle sign-up logic here
-    console.log('Sign up form submitted:', {
+    const data = {
       firstName,
       lastName,
       email,
       password,
       phoneNumber,
-    });
+    };
+  
+    try {
+      const response = await axios.post('http://localhost:8089/sign-up/signup', data);
+      if (response.status === 200) {
+        alert('Sign-up success');
+        setFirstName('');
+        setLastName('');
+        setEmail('');
+        setPassword('');
+        setPhoneNumber('');
+        setAlreadyMember(true);
+      } else {
+        throw new Error('Sign-up failed');
+      }
+    } catch (error) {
+      console.error(error);
+      alert('Sign-up failed');
+    }
   };
+  
+  
+  
+  
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -32,6 +52,14 @@ const Signup = () => {
       username,
       loginPassword,
     });
+    // Check if login was successful
+    if (username === 'example' && loginPassword === 'password') {
+      alert('Login successful');
+      // Switch to the login form
+      setAlreadyMember(true);
+    } else {
+      alert('Invalid username or password');
+    }
   };
 
   return (
@@ -73,28 +101,21 @@ const Signup = () => {
             onChange={(e) => setFirstName(e.target.value)}
             style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
           />
+
            <input
             type="text"
             placeholder="Last Name"
-            value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
             style={{ backgroundColor: 'white', color: 'blue' ,border:'1px solid grey'}}
           />
           <input
             type="text"
             placeholder="E-mail"
-            value={lastName}
-            onChange={(e) => setLastName(e.target.value)}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             style={{ backgroundColor: 'white', color: 'blue',border:'1px solid grey'}}
           />
-          {/* <input 
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)} 
-            // className="email"
-            style={{ backgroundColor: 'white', color: 'blue' ,marginLeft:'200px',border:'1px solid grey'}}
-          /> */}
           <input
             type="password"
             placeholder="Password"

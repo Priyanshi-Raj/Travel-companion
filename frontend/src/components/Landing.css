@@ -151,4 +151,33 @@
    display: block;
    font-weight: bold;
  }
+ .searchi {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.searchi a {
+  text-decoration: none;
+  color: #333;
+}
+
+.searchi a:hover {
+  color: #666;
+}
+
+.searchi button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.searchi button:hover {
+  background-color: #0062cc;
+}
  
