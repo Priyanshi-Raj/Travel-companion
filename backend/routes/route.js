@@ -13,5 +13,6 @@ router.post('/createPost', createPost);
 router.get('/getPosts:id', getPost);
 router.patch('/getPosts:id', updatePost);
 router.delete('/getPosts:id', deletePost);
+router.post("/recommend", )
 // router.patch('/getPosts:id/likePost', likePost);
 export default router;

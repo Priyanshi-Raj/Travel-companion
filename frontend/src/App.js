@@ -11,24 +11,26 @@ import Chat from "./components/Chat";
 import CardPage from "./components/CardPage";
 import IndiaPage from "./components/Recommend/IndiaPage";
 // import Header from './components/header/Header';
-import Varanasi from "./components/Varanasi"
+import Varanasi from "./components/Varanasi";
 import RajeshSharma from "./components/RajeshSharma";
 import Navbar from "./components/Navbar";
+import RecommendOnQuery from "./components/RecommendOnQuery";
 
 function App() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/sign-up/signup" element={<Signup />} />
         <Route path="/indiapage" element={<IndiaPage />} />
-        <Route path="/cardpage" element={<CardPage/>}/>
-        <Route path="/local" element={<LocalRegisteration />}/>
-        <Route path="/vara" element={<Varanasi />}/>
-        <Route path="/raja" element={<RajeshSharma />}/>
+        <Route path="/cardpage" element={<CardPage />} />
+        <Route path="/recommend" element={<RecommendOnQuery />} />
+        <Route path="/local" element={<LocalRegisteration />} />
+        <Route path="/vara" element={<Varanasi />} />
+        <Route path="/raja" element={<RajeshSharma />} />
       </Routes>
       {/* <MessengerCustomerChat
     pageId="100091854913747"

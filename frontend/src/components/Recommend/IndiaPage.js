@@ -21,6 +21,7 @@ const handleSubmit = (event) => {
       window.location.href = '/cardpage';
     } else {
       // handle recommendation form submission
+      window.location.href = '/recommend';
     }
   };
   
