@@ -13,10 +13,12 @@ import IndiaPage from "./components/Recommend/IndiaPage";
 // import Header from './components/header/Header';
 import Varanasi from "./components/Varanasi"
 import RajeshSharma from "./components/RajeshSharma";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/budget" element={<Budget />} />

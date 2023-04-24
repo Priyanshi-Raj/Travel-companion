@@ -1,4 +1,4 @@
-.navbar {
+.navbart {
   background-color: rgb(5, 4, 63);
   overflow: hidden;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.navbar a {
+.nava{
   color: white;
   font-size: 16px;
   text-align: center;
@@ -15,7 +15,7 @@
   transition: background-color 0.5s ease;
 }
 
-.navbar a:hover {
+.nava:hover {
   background-color: #ddd;
   color: black;
 }

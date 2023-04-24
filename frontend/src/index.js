@@ -11,11 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 Kommunicate.init("2d1d17d59825d0256fa45fac3fce68ed7" )
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
      <Router>
       <App />
     </Router>
-  </React.StrictMode>
+  /* </React.StrictMode> */
 );
 
 // If you want to start measuring performance in your app, pass a function
