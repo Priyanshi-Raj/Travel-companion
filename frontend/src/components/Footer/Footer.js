@@ -86,7 +86,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className={style.form}>
+      <div id="contact" className={style.form}>
         <p className={style.para}>Got a query? Contact Us</p>
         <form method="POST" className={`${style["contact-form"]}`}>
           <div className={style.first}>

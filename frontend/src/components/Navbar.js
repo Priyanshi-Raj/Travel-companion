@@ -85,9 +85,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT US</a>
-        <a href="">SERVICES</a>
+        <a href="/">HOME</a>
+        <a href="#services">ABOUT US</a>
+        <a href="#services">SERVICES</a>
         <Link to="/budget">
           <a href="#budget">BUDGET</a>
         </Link>

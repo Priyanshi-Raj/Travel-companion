@@ -1,4 +1,4 @@
-import User from "../model/user-schema.js";
+import User from "../model/User.js";
 import Owner from "../model/owner-schema.js";
 export const userSignUp = async (request, response) => {
   try {
