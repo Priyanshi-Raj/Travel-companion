@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import "./Landing.css";
 import Services from "./Services";
 // import CustomerFavour from "./CustomerFavour";
+import ZigZag from "./ZigZag";
 
 const Landing = () => {
   const [state, setState] = useState("State");
@@ -45,6 +46,12 @@ const Landing = () => {
       <br />
       <Services />
       {/* <CustomerFavour /> */}
+      <div style={{marginTop:'2%'}}>
+        <h4>FAQ's</h4>
+      </div>
+      <div style={{marginTop:'4%'}}></div>
+      <ZigZag/>
+
     </div>
   );
 };
